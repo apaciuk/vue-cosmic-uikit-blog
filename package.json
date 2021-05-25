@@ -1,5 +1,5 @@
 {
-  "name": "vue-uikit-nuxt-starter",
+  "name": "vue-cosmic-uikit-blog",
   "version": "1.0.0",
   "private": true,
   "description": "Vue Blog with Cosmic headless CMS and UIKit , and Graphql",
@@ -30,6 +30,7 @@
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.1-rc.5",
     "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
     "dotenv": "^9.0.2",

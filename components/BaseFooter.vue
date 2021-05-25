@@ -10,7 +10,7 @@
                 </ul>
                 <div class="uk-panel">
                     <p>Made by <a href="http://www.xhostcom.com">Paul Anthony McGowan</a> with a lot of caffeine.<br class="uk-hidden-small">Built with <a href="https://nuxtjs.org/">Nuxt/Vue 2.6</a> and <a href="https://getuikit.com/">UIKit 3</a>.</p>
-                    <a href="http://www.xhostcom.com"><img src="~assets/images/logo.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
+                    <a href="http://www.xhostcom.com"><img src="logo.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
                 </div>
   </div>
 </div>
@@ -19,7 +19,7 @@
 <style scoped>
 .tm-footer {
 padding-top: 50px;
-background: #071e50;
+background: #0a0116;
 }
 .uk-subnav a {
 color: lightgray;
