@@ -24,8 +24,7 @@ css: [
 // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 plugins: [
   { src: '~/plugins/uikit', ssr: false },
-  { src: '~/plugins/cards', ssr: false },
-  { src: '~/plugins/axios' }
+  { src: '~/plugins/cards', ssr: false }
 ],
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -35,11 +34,18 @@ plugins: [
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    // Apollo
+    '@nuxtjs/apollo',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa'
   ],
+  apollo: {
+   clientConfigs: {
+     default: {
+       httpEndpoint: 'https://graphql.cosmicjs.com/v2'
+     }
+   }
+  },
   auth: {
     redirect: {
       login: '/', // redirect user when not connected
@@ -53,13 +59,7 @@ plugins: [
       }
     }
   },
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
- axios: {
-    // extra config e.g
-    // BaseURL: 'https://link-to-API'
- },
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
+ // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
       lang: 'en'

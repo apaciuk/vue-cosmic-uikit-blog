@@ -1,22 +1,29 @@
 <template>
-<body data-uk-filter="target: .js-filter; animation: fade">
-  <main>
-  <BaseHeader />
-  <Nuxt />
- <OffCanvas />
+  <div>
+   <BaseHeader />
+    <Nuxt />
   <BaseFooter />
-  </main>
-</body>
+  <OffCanvas />
+  </div>
 </template>
-<script>
-export default {
-
-}
-</script>
 
 <style>
-* {
-box-sizing: border-box;
+html {
+  font-family:
+    'Open Sans', sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
 }
 </style>
-

@@ -1,18 +1,15 @@
 # vue-uikit-nuxt-starter
-
-Vue Starter with Vue Nuxt UIKit Axios set up and some other useful card components, easily altered basic templates for different designs with UIKit (or others, replace UIKit and layouts)
+Vue Blog with Cosmic headless CMS and UIKit , and Graphql
 
 # Demo sandbox view
 
-https://hnbzj.sse.codesandbox.io/
 
 # Code in sandbox view
 
-https://codesandbox.io/s/loving-allen-hnbzj
 
 # Netlify Deploy
 
-https://csb-hnbzj.netlify.app/
+
 
 # System Requirements
 
